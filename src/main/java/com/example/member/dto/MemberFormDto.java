@@ -12,7 +12,7 @@ public class MemberFormDto {
 
     private Long id;
 
-    @NotEmpty // pom.xml에 validation 디펜던시 추가
+    @NotEmpty(message = "빈공백있음...") // pom.xml에 validation 디펜던시 추가
     private String email;
 
     private String name;

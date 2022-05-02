@@ -31,13 +31,12 @@ public class MemberController {
 
     @GetMapping("insert")
     public String insert(Model model) {
-        model.addAttribute("memberformdto",new MemberFormDto());
+        model.addAttribute("memberFormDto",new MemberFormDto());
         return "member/insert";
     }
 
     @PostMapping("insert")
     public String insert(Model model, @Valid MemberFormDto memberFormDto, BindingResult bindingResult) {
-        model.addAttribute("memberformdto",new MemberFormDto());
         if(bindingResult.hasErrors()) {
             return "member/insert";
         } // 에러없으면
