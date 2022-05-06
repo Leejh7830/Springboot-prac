@@ -1,6 +1,7 @@
 package com.example.member.entity;
 
 
+import com.example.member.dto.MemberFormDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
@@ -25,4 +26,13 @@ public class Member {
     private String password;
     private String gender;
 
+    public static Member createMember(MemberFormDto memberFormDto) {
+        Member member = new Member();
+        member.id = memberFormDto.getId();
+        member.name = memberFormDto.getName();
+        member.email = memberFormDto.getEmail();
+        member.password = memberFormDto.getPassword();
+        member.gender = memberFormDto.getGender();
+        return member;
+    }
 }
