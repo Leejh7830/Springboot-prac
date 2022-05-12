@@ -4,13 +4,14 @@
       layout:decorate="~{layout/layout(menu='findall.html')}">
 <th:block layout:fragment="script">
     <script>
-        $('document').ready(function() {
+        $('document').ready(function(){
             $('#delbtn').on('click',function(){
                 $('#frm').submit();
             });
         });
     </script>
 </th:block>
+
 <th:block layout:fragment="css">
     <style>
     </style>
@@ -34,17 +35,16 @@
                 <tr th:each="board:${list}">
                     <td></td>
                     <td>[[${board.id}]]</td>
-                    <td>[[${board.title}]]</td>
+                    <td><a th:href="@{/board/view(boardid=${board.id})}">[[${board.title}]]</a></td>
                     <td>[[${board.content}]]</td>
                     <td>[[${board.wdate}]]</td>
                 </tr>
             </tbody>
         </table>
         </form>
-        <button id="delbtn" class="btn btn-outline-primary w-25 me-3">삭제</button>
-        <a th:href="@{/member/insert}" class="btn btn-outline-primary w-25">글쓰기</a>
+        <button id="delbtn" class="w-25 btn btn-outline-primary me-3">삭제</button>
+        <a th:href="@{/board/insert}" class="w-25 btn btn-outline-primary">글쓰기</a>
     </div>
-
     <hr>
 </div>
 </html>

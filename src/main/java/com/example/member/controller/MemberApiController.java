@@ -2,7 +2,6 @@ package com.example.member.controller;
 
 import com.example.member.entity.Member;
 import com.example.member.repository.MemberRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -21,8 +20,8 @@ public class MemberApiController {
 
     // insert
     @GetMapping("add")
-    @CrossOrigin // 통신에러
-    public @ResponseBody String add(String email, String name, String password) {
+    @CrossOrigin
+    public @ResponseBody String add(String email,String name,String password){
         Member member = new Member();
         member.setEmail(email);
         member.setPassword(password);
@@ -35,7 +34,7 @@ public class MemberApiController {
     // select
     @GetMapping("all")
     @CrossOrigin
-    public @ResponseBody List<Member> all() {
+    public @ResponseBody List<Member> all(){
         List<Member> list = memberRepository.findAll();
         return list;
     }

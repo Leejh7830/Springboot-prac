@@ -7,21 +7,20 @@
         console.log("log");
     </script>
 </th:block>
+
 <th:block layout:fragment="css">
     <style>
-        .myContent{
-            background-color: lightskyblue;
+        .mycontent{
+            background-color: #eee;
         }
     </style>
 </th:block>
 
 <div layout:fragment="content">
     <hr>
-    <div class="myContent">
-    content
+    <div class="mycontent">
+        content
     </div>
     <hr>
 </div>
-
-
 </html>
