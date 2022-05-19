@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="adao" class="study.ADao">
+	</bean>
+	
+<!-- 	2-1. 생성자 방식 -->
+<!-- 	<bean class="study.AService"> -->
+<!-- 		<constructor-arg ref="adao"/> -->
+<!-- 	</bean> -->
+	
+	2-2.
+	<bean id="asubdao" class="study.ASubDao">
+		<property name="aa" value="10"/>
+	</bean>
+	
+	<bean class="study.AService">
+		<property name="adao" ref="adao"/>
+	</bean>
+	
+</beans>

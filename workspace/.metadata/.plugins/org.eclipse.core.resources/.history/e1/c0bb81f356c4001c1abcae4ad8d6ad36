@@ -1,0 +1,15 @@
+package board;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("boardtail")
+public class BoardTailController {
+	
+	@GetMapping("insert")
+	public String insert(BoardTail boardtail) {
+		return "redirect:/board/view?id="+boardtail.getFk_id();
+	}
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="ex0401"/>
+<aop-project name="ex0404"/>
+<aop-project name="sp5-chap11-tag"/>
+<aop-project name="sp5-chap10"/>
+<aop-project name="sp5-chap12"/>
+<aop-project name="sp5-chap11"/>
+</aop-reference-model>

@@ -1,0 +1,2 @@
+<form:from 사용하기>
+taglib 추가) <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>

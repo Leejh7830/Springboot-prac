@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="boardtail">
+	<select id="selectall"
+			parameterType="int" 
+			resultType="board.BoardTail">
+		select * from boardtail
+		where fk_id = #{fk_id}
+	</select>
+	
+	<insert id="insert" parameterType="board.BoardTail">
+		insert into boardtail
+		(name,tcontent,wdate,fk_id)
+		values
+		(#{name},#{tcontent},#{wdate},#{fk_di})
+	</insert>
+	
+	
+</mapper>

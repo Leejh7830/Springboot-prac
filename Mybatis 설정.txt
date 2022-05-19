@@ -1,0 +1,4 @@
+https://github.com/parkmyounghoi/MySpring/blob/master/MyOrg/src/mybatis%EC%84%A4%EC%A0%95%EB%AC%B8%EC%84%9C.txt
+
+https://github.com/parkmyounghoi/MySpring/blob/master/MyOrg/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
+
