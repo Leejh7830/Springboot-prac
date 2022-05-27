@@ -14,8 +14,7 @@ public class BoardController {
     }
 
     @GetMapping("insert")
-    public String insert() {
+    public String insert(){
         return "freeboard/insert";
     }
-
 }

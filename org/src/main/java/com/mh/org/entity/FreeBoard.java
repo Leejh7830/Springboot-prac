@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 public class FreeBoard {
+//    번호	제목	작성자	추천	조회	등록일
     @Id
     @Column(name = "id", nullable = false)
     @GeneratedValue(generator = "freeboard_seq",strategy = GenerationType.AUTO)
@@ -25,6 +26,7 @@ public class FreeBoard {
     @Column(columnDefinition = "datetime default now()")
     private LocalDateTime wdate;
 
-
     public FreeBoard() {}
+
+
 }
