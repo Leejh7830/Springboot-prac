@@ -12,4 +12,10 @@ public class BoardController {
     public String select(){
         return "freeboard/select";
     }
+
+    @GetMapping("insert")
+    public String insert() {
+        return "freeboard/insert";
+    }
+
 }
