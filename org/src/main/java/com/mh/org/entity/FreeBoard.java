@@ -21,8 +21,9 @@ public class FreeBoard {
     private Long id;
     private String title;
     private String name;
-    private String count;
+    private String content;
 
+    private int count;
     @Column(columnDefinition = "datetime default now()")
     private LocalDateTime wdate;
 
