@@ -4,10 +4,18 @@ import com.mh.org.entity.FreeBoard;
 import com.mh.org.repository.FreeBoardRepository;
 import com.mh.org.validator.FreeBoardDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.time.LocalDateTime;
+import java.util.List;
 
 @Controller
 @RequestMapping("freeboard")
@@ -17,7 +25,15 @@ public class BoardController {
     private final FreeBoardRepository freeBoardRepository;
 
     @GetMapping("select")
-    public String select(){
+    public String select(Model model){
+
+        Pageable pa = PageRequest.of(0,5,Sort.by(Sort.Direction.DESC,"id"));
+        Page<FreeBoard> list = freeBoardRepository.findAll(pa);
+//      List -> Page
+
+        //Page<FreeBoard> list = freeBoardRepository.mycustomQuery()
+
+        model.addAttribute("list",list);
         return "freeboard/select";
     }
 
@@ -31,9 +47,10 @@ public class BoardController {
         FreeBoard freeBoard = FreeBoard.builder()
                 .name(dto.getName())
                 .title(dto.getTitle())
+                .wdate(LocalDateTime.now())
                 .content(dto.getContent()).build();
         freeBoardRepository.save(freeBoard);
-        return "freeboard/select";
+        return "redirect:/freeboard/select";
     }
 
 }
