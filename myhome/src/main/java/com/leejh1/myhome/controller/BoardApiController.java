@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import org.thymeleaf.util.StringUtils;
 
 @RestController
-@RequestMapping("/api")
-class boardApiController {
+class BoardApiController {
 
     @Autowired
     private BoardRepository repository;

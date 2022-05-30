@@ -20,7 +20,7 @@
 
     <div class="container">
         <h2>게시판</h2>
-        <div>총 건수 : <span th:text="${#lists.size(boards)}"></span></div>
+        <div>총 게시글 수 : <span th:text="${boards.getTotalElements}"></span></div>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -36,6 +36,19 @@
                     <td>홍길동</td>
                 </tr>
         </table>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"
+                    ><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item" th:each="i : ${#numbers.sequence(startPage, endPage)}">
+                    <a class="page-link" href="#" th:text="${i}">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
         <div class="text-end">
             <a type="button" class="btn btn-primary" th:href="@{/board/form}">글쓰기</a>
         </div>
