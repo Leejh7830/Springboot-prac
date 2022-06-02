@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c348073b-75b8-43e7-af20-bee0061a3d5a" name="변경" comment="layout">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/godcoder/myhome/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/godcoder/myhome/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/godcoder/myhome/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/godcoder/myhome/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/account/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/account/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/board/list.html" afterDir="false" />
@@ -61,26 +64,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java_work/springbooooot/springboot/member&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.godcoder.myhome.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MyhomeApplication">
     <configuration name="이름이 지정되지 않았습니다" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.godcoder.myhome.MyhomeApplication" />
       <module name="myhome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyhomeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myhome" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.godcoder.myhome.MyhomeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +105,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653560302007</updated>
+      <workItem from="1654158917416" duration="979000" />
+      <workItem from="1654166063050" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1653560675957</created>
@@ -125,6 +138,9 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
