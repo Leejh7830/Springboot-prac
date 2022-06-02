@@ -32,6 +32,9 @@ public class FreeBoardDto {
     private int count;
     private LocalDateTime wdate;
 
+    // 파일이름 중복안나게게
+   private String uuid;
+
     public FreeBoardDto() {}
 
 }
