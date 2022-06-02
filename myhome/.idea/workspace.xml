@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c47e028b-e15a-47e6-a15e-476f771f8376" name="변경" comment="layout 구성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leejh1/myhome/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8ad3d5e-bf9a-4c75-a240-4efb455c4cc1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e8ad3d5e-bf9a-4c75-a240-4efb455c4cc1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leejh1/myhome/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leejh1/myhome/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leejh1/myhome/repository/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leejh1/myhome/repository/BoardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/board/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/MyhomeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/MyhomeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/controller/BoardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/controller/boardApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/controller/boardApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/model/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/repository/BoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/repository/BoardRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/validator/BoardValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leejh1/myhome/validator/BoardValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/board/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/board/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/leejh1/myhome/MyhomeApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/leejh1/myhome/MyhomeApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="c47e028b-e15a-47e6-a15e-476f771f8376" name="변경" comment="layout 구성" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +94,7 @@
       <workItem from="1654090971325" duration="31000" />
       <workItem from="1654091162141" duration="458000" />
       <workItem from="1654091631822" duration="6535000" />
+      <workItem from="1654132199468" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1653560900285</created>

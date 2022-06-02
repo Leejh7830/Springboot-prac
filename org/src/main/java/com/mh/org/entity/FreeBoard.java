@@ -19,14 +19,15 @@ public class FreeBoard {
     private Long id;
     private String title;
     private String name;
+
+    @Column(columnDefinition = "int default 0") // = @Lob
+    private int count;
+
+    @Column(columnDefinition = "text")
     private String content;
 
-    @Column(columnDefinition = "int default 0")
-    private int count;
-    @Column(columnDefinition = "datetime")
+    @Column(columnDefinition = "datetime default CURRENT_TIMESTAMP")
     private LocalDateTime wdate;
 
     public FreeBoard() {}
-
-
 }
